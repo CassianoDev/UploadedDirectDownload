@@ -8,9 +8,11 @@ Para usar hospede os arquivos em seu servidor com PHP>=5.5, abra o config.php e 
 
 IMPORTANTE: Crie um arquivo .txt em /usr/share/cookie.txt para salvar as sessões de login, execute:
 
-touch /usr/share/cookie.txt [isto cria o arquivo]
+[isto cria o arquivo]
+touch /usr/share/cookie.txt 
 
-chmod 777 /usr/share/cookie.txt [isto dar permissão ao cURL para gravar no arquivo]
+[isto dar permissão ao cURL para gravar no arquivo]
+chmod 777 /usr/share/cookie.txt 
 
 Após isso acesse a url de seu servidor:
 
