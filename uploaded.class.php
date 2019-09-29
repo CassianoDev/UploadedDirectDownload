@@ -1,5 +1,5 @@
 <?php
-/* UPLOADED CLASS DIRECT DOWNLOAD FOR FFMPEG PLAYLIST 24 HOURS CHANNELS*/
+/* Cassiano Software 29/09/2019 */
 
 class uploaded {
   private $User;
