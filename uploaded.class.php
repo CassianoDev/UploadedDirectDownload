@@ -41,7 +41,7 @@ class uploaded {
     $now = time(); //you should put this outside of the loop
     if($now - filemtime($this->CookiePatch) > 24 * 60 * 60 || file_get_contents($this->CookiePatch) == ""){
       curl_setopt($this->Ch, CURLOPT_URL, "http://uploaded.net/io/login");
-      curl_setopt($this->Ch, CURLOPT_REFERER, "http://uploaded.net/me");
+      curl_setopt($this->Ch, CURLOPT_REFERER, "http://uploaded.net");
       curl_setopt($this->Ch, CURLOPT_USERAGENT, USER_AGENT);
       curl_setopt($this->Ch, CURLOPT_COOKIEFILE, $this->CookiePatch);
       curl_setopt($this->Ch, CURLOPT_COOKIEJAR, $this->CookiePatch);
